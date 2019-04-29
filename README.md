@@ -5,18 +5,16 @@ Smart mail box will have an IR Sensor attached to the inside of the postbox. Whe
 
 ![smartmailbox_Architectue](https://user-images.githubusercontent.com/36333782/56877972-4ac74c00-6a6f-11e9-8b2b-b12060bf3cb1.jpg)
 
-
-# Technologies:
+## Technologies:
 Python Script for IR Sensor and SMTP Mail Protocol into Raspberry Pi.
-# Protocol:
+## Protocol:
 SMTP- The Simple Mail Transfer Protocol (SMTP) is a communication protocol for electronic mail transmission. SMTP moves your email on and across networks. It works closely with something called the Mail Transfer Agent (MTA) to send your communication to the right computer and email inbox.
-# Methodology:
-Connect IR sensor to raspberry pi. Wrote a script to detect a letter/mail. As an when a letter is detected, python script send email using smtp protocol and the user will receive an email notifying him about the mail.
 
-# To access mail utility type command: Sudo apt-get install sssmtp mailutils
+To access mail utility type command: Sudo apt-get install sssmtp mailutils
 
-# SMTP configuration:
+## SMTP configuration:
 command: sudo nano etc/ssmtp/ssmtp.conf
+
 hostname=raspberry pi
 AuthUser=smartmailbox703@gmail.com
 AuthPass=smart@703
