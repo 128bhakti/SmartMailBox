@@ -1,4 +1,4 @@
-# SmartMailBox
+# Smart MailBox
  A Smart Mail Box as a part of Home Automation under Internet of Things, developed using R-pi and IR sensor.
  
 Smart mail box will have an IR Sensor attached to the inside of the postbox. Whenever a post is dropped into the postbox, the user is notified that you have a new mail in your postbox through gmail.
