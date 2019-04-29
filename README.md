@@ -16,7 +16,11 @@ To access mail utility type command: Sudo apt-get install sssmtp mailutils
 command: sudo nano etc/ssmtp/ssmtp.conf
 
 hostname=raspberry pi
-AuthUser=smartmailbox703@gmail.com
-AuthPass=smart@703
+
+AuthUser=senders_email_id
+
+AuthPass= senders_email_password
+
 UseSTARTTLS=YES
+
 UseTLS=YES
